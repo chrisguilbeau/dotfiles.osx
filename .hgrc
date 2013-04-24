@@ -1,0 +1,15 @@
+[ui]
+username = Chris Guilbeau <cguilbeau@zogotech.com>
+editor = subl -w
+
+[extdiff]
+cmd.df = /Users/cg/bin/difffork
+opts.df = -w
+
+[merge-tools]
+filemerge.executable = /Users/cg/bin/opendiff-w
+filemerge.args = $local $other -ancestor $base -merge $output
+
+[extensions]
+extdiff =
+purge =
